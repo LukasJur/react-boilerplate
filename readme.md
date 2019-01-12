@@ -10,7 +10,7 @@ This react boilerplate is integrated with:
 ## Setup
 npm install\
 npm run build\
-npm start\
-# Additional commands
+npm start
+## Additional commands
 npm run clean\
-npm test\
+npm test
