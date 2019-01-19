@@ -1,10 +1,12 @@
-import WebServer from './web.server'
-let webServer = new WebServer();
-webServer.start()
+import WebServer from "./web.server";
+
+const webServer = new WebServer();
+webServer
+  .start()
   .then(() => {
-    console.log('Web server started!')
+    console.log("Web server started!");
   })
   .catch(err => {
-    console.error(err)
-    console.error('Failed to start web server')
+    console.error(err);
+    console.error("Failed to start web server");
   });
